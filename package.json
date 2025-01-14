@@ -1,27 +1,17 @@
 {
-  "name": "next-setup",
+  "name": "mycli",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "cli-tool": "index.js"
-  },
-  "keywords": [
-    "NextJS",
-    "Typescript",
-    "Template",
-    "ShadcnUI",
-    "Prisma"
-  ],
-  "author": "Rabindra nath mahato",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "description": "NextJS Starter Kit which provide all features which are reqiured to build a application example Payment , Email , UI library , Routes Creation, Database connnection, Authentication and many more features.",
+  "description": "",
   "dependencies": {
     "commander": "^13.0.0",
     "fs-extra": "^11.2.0",
-    "inquirer": "^12.3.2",
-    "path": "^0.12.7"
+    "inquirer": "^12.3.2"
   }
 }
