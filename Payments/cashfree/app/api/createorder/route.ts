@@ -1,26 +1,14 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 740f087 (first commit)
 import { NextRequest, NextResponse } from "next/server";
 import { Cashfree } from "cashfree-pg";
 
 Cashfree.XClientId = "";
 Cashfree.XClientSecret = "";
-<<<<<<< HEAD
-=======
-=======
-// app/api/createOrder/route.js
 
 import { NextRequest, NextResponse } from "next/server";
 import { Cashfree } from "cashfree-pg";
 
-Cashfree.XClientId = "TEST102839957af3b29582e1f701ffec59938201";
-Cashfree.XClientSecret =
-  "cfsk_ma_test_961fa34ba692413eb28350817ceaf182_9b423577";
->>>>>>> 1e7d605 (hello)
->>>>>>> 740f087 (first commit)
-Cashfree.XEnvironment = Cashfree.Environment.SANDBOX;
+Cashfree.XClientId = "";
+Cashfree.XClientSecret = "";
 
 export async function POST(req: NextRequest) {
   try {
